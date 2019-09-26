@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="container contact">
+            <h1>Contact Form</h1>
+
+        </div>
+        <form action="http://localhost:3000/details" method="GET">
+            <div class="container">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Full Name</label>
+                    </div>
+                    <div class="col-75">
+                        <input
+                        type="text"
+                        id="fullname"
+                        name="fullname"
+                        placeholder="Enter full name"
+                        />
+                    </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email Address</label>
+
+                        </div>
+                        <div class="col-75">
+                            <input
+                            type="text"
+                            id="email"
+                            name="email"
+                            placeholder="Enter email address"
+                            />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea 
+                            id="subject"
+                            name="subject"
+                            placeholder="Write something.."
+                            style="height: 50px">
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="message">Message</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea
+                            id="message"
+                            name="message"
+                            placeholder="Write message..."
+                            style="height: 200px">
+                            </textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit"/>
+                    </div>
+            </div>
+        </form>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>
